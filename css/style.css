@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("font/Roboto-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Roboto-Italic";
+    src: url("font/Roboto-Italic.ttf");
+  } 
+  @font-face {
+    font-family: "Roboto-Black";
+    src: url("font/Roboto-Black.ttf");
+  }
+
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+  }
+  /*pour garder la meme taille*/
+  * {
+    box-sizing: border-box; 
+  }
+  iframe,
+  img {
+    width: 100%;
+    display: block;
+  }
+  body {
+    text-align: center;
+    margin: auto;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+  }
+  .container {
+  }
+  /*************** END GLOBAL ***************/
+  
+  /*************** HEADER ***************/
+  h1 {
+    text-align: center;
+    color: rgb(218, 90, 150);
+    font-size: 50px;
+    margin-top: 50px;
+  }
+  /*************** END HEADER ***************/
+  /*************** MAIN ***************/
+  .genre > select,
+  option {
+    margin: auto;
+    width: 1000px;
+    margin-top: 100px;
+  }
+  .pays{
+    margin: auto;
+    width: 1000px;
+    margin-top: 100px;
+    
+  }
+  .pays>input {
+    text-align: left;
+    
+  }
+  .ligne {
+    margin: auto;
+    width: 1000px;
+    margin-top: 100px;
+  }
+  .ligne>input {
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 10px; 
+    border: 1px solid rgb(218, 90, 150); 
+    margin-bottom: 40px;
+    /* background-color: rgb(236, 233, 233);
+    /* filter: blur(8px); */
+   }
+   .ligne>label { 
+     color: rgb(218, 90, 150); 
+   }
+
+  #submit {
+    margin: 10px auto;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px; 
+    /* border: solid rgb(218, 90, 150);
+    border-width: 2px;
+    background-color: #01f3c7;
+    background-color: rgb(218, 90, 150);
+    border: 1px solid #05bf9d;
+    color: white;
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 18px; */
+  }
+  
+  /*************** END MAIN ***************/
+  
+  
+  
+  /*************** FOOTER ***************/
+  
+  /*************** END FOOTER ***************/
+  
+  /*************** MEDIAQUERY ***************/
+  
+  @media (max-width: 1400px) {
+    header {
+      background-color: #e68f15;
+    }
+    header h2 {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    header {
+      background-color: #a6f28b;
+    }
+    .logo1 {
+      display: none;
+    }
+    .logo2 {
+      display: inline;
+    }
+    header h2 {
+      font-family: "Roboto-Black";
+    }
+  }
+  
+  /*************** END MEDIAQUERY ***************/
+  
